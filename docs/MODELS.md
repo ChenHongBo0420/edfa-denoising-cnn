@@ -25,9 +25,3 @@ The threshold is learned from pooled absolute feature values. A fully connected 
 `run.py train` trains the selected model on the supplied prepared CSV. `run.py cross-validate` initializes a separate model and optimizer for each fold and saves the row indices. `run.py evaluate` applies a saved model to another prepared dataset.
 
 The runner uses Adam, a configurable constant learning rate and `sqrt(MSE + 1e-6)` for training. Final-epoch checkpoints include the model name and configuration. Evaluation aggregates RMSE and MAE over all samples and output channels.
-
-## 中文说明
-
-三个模型均使用 85 维输入和 83 维输出。`wide-cnn` 为宽通道软阈值去噪网络，`residual-attention-cnn` 增加残差及注意力模块，`mlp` 为全连接基线。
-
-软阈值层由特征绝对值、全局池化、全连接分支和 Sigmoid 学习阈值，再对特征进行收缩。统一入口支持单次训练、独立五折评估，以及同一模型在不同 EDFA 数据上的预测。

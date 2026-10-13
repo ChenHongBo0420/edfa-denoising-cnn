@@ -1,7 +1,5 @@
 # EDFA Gain Modelling with Soft-Threshold Denoising
 
-[中文说明](README.zh-CN.md)
-
 Research code associated with **Accurate EDFA Gain Modelling using Convolutional Neural Network with Denoising Layers enabled by Soft-thresholding**, Hongbo Chen, Guo-Wei Lu and Kunping Luo, ECOC 2023, pp. 282-285. [Paper DOI](https://doi.org/10.1049/icp.2023.2060).
 
 This repository provides single-EDFA modelling code with adaptive soft-threshold denoising, including wide-channel and residual-attention CNN variants and a fully connected baseline. It preserves the model definitions and provides a portable training/evaluation entry point. See [model descriptions](docs/MODELS.md) and [source provenance](docs/SOURCE_MAP.md).
