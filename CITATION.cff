@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated ECOC 2023 paper."
+title: "EDFA Gain Modelling with Soft-Threshold Denoising: Recovered Research Code"
+type: software
+repository-code: "https://github.com/ChenHongBo0420/edfa-denoising-cnn"
+authors:
+  - family-names: Chen
+    given-names: Hongbo
+license: MIT
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: Chen
+      given-names: Hongbo
+    - family-names: Lu
+      given-names: Guo-Wei
+    - family-names: Luo
+      given-names: Kunping
+  title: "Accurate EDFA Gain Modelling using Convolutional Neural Network with Denoising Layers enabled by Soft-thresholding"
+  collection-title: "49th European Conference on Optical Communications (ECOC 2023)"
+  year: 2023
+  start: 282
+  end: 285
+  doi: 10.1049/icp.2023.2060

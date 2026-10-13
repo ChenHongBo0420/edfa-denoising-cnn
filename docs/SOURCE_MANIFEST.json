@@ -1,0 +1,23 @@
+{
+  "source_directory_name": "EDFA1",
+  "model_files": [
+    {
+      "release_path": "models/wide_cnn.py",
+      "original_relative_path": "EDFA_network/result/transfor.py",
+      "sha256": "550f6e9ea1c602dfe26c6c1072852ed9cde7e0df1c745ea65f2e6c6093aa77c8",
+      "copied_without_modification": true
+    },
+    {
+      "release_path": "models/residual_attention_cnn.py",
+      "original_relative_path": "EDFA_network/model_NN.py",
+      "sha256": "316e62920e1e10174cb61629cf61076f2dbf19aefc4ba664b764f79a52dd2735",
+      "copied_without_modification": true
+    },
+    {
+      "release_path": "models/mlp.py",
+      "original_relative_path": "EDFA_network/result/model_NN.py",
+      "sha256": "fad2f9b0d8eb684e1e2caab2451fc521e83ea8625666f6a2410aa855c2380cd7",
+      "copied_without_modification": true
+    }
+  ]
+}
